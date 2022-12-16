@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo Argañaraz</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles.css">
+
+
+</head>
+
+<body>
+
+
+    <i class='iconShowMenu bx bx-menu'></i>
+
+    <nav class="navbar">
+        <span><a href="#home">HOME</a></span>
+        <span> <a href="https://www.linkedin.com/in/rodrigo-argañaraz/" target="_blank">Contact me</a></span>
+        <span>          
+            <a href="https://www.linkedin.com/in/rodrigo-argañaraz/" target="_blank">
+            <img class="linkedin" src="./assets/images/linkedin-logo.png" alt="porta1">
+            </a>
+        </span>
+
+        <ul class="navbar__menu">
+            <li><a class="link link--active" href="#home">Inicio</a></li>
+
+            <li><a class="link" href="#about">Sobre mi</a></li>
+            <li><a class="link" href="#my-skills">My Skills</a></li>
+            <li><a class="link" href="#portfolio">Portafolio</a></li>  
+            <li><a class="link" href="#contact">Contact</a></li>
+
+            <li class="iconTheme">🌑</li>
+        </ul>
+    </nav>
+
+    <main class="container__principal">
+
+        <section id="home" class="hidden">
+            <h1 class="home__title">Hi! My name is <span>Rodrigo Argañaraz</span> and I'm<span> Full Stack Web developer</span>
+            </h1>
+        </section>
+
+        <section id="about" class="hidden">
+            <h2>About me!</h2>
+            <div class="container_principal">
+                <div>
+                    <p>After having dedicated 6 years working in precision agriculture technologies (technical advice, sales, after-sales and others), there was always in me a very deep need to find a path that fills me with satisfaction, to get up every day and feel full. Today with Programming, I know that I found my true passion, that it is such a diverse and exciting world to travel, and that I am part of such a collaborative community in today's world, the world of developers.</p>
+    
+                    <p>I know that it is not an easy path, it is a lot to learn, and that with each passing day, many technologies stop being new, so it is always necessary to be full, not stop learning or growing.</p>
+                </div>
+    
+    
+    
+                <div class="about__img">
+                    <img src="./assets/images/me.jpg" alt="this is me">
+                </div>
+            </div>
+        </section>
+
+        <section id="my-skills" class="hidden">
+            <h2>My Skills</h2>
+            <div className="skills">
+                <div>
+                    <img className="icons" src="./assets/icons/icons-react.png" alt="">
+                    <h4>React</h4>
+                </div>
+                <div>
+                    <img className="icons" src="./assets/icons/icons-redux.png" alt="">
+                    <h4>Redux</h4>
+                </div>
+                <div>
+                    <img className="icons" src="./assets/icons/icons-javascript.png" alt="">
+                    <h4>Javascript</h4>
+                </div>
+                <div>
+                    <img className="icons" src="./assets/icons/icons-css3.png" alt="">
+                    <h4>CSS</h4>
+                </div>
+                <div>
+                    <img className="icons" src="./assets/icons/icons-html5.png" alt="">
+                    <h4>HTML</h4>
+                </div>
+                <div>
+                    <img className="icons" src="./assets/icons/icons-bootstrap.png" alt="">
+                    <h4>Bootstrap</h4>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="hidden">
+
+            <h2>My Projects</h2>
+            <div class="portfolios">
+
+                <div class="portfolio">
+                    <h4>
+                    E-COMMERCE with React/Redux/Javascript/CSS
+
+                    </h4>
+                    <a href="https://my-ecommerce-to-react.netlify.app/" target="_blank">
+                        <img src="./assets/images/e-commerce.gif" alt="porta1">
+                    </a>
+                </div>
+                <div class="portfolio">
+                    <h4>
+                    POKEDEX with React/Redux/Javascript/CSS 
+                    </h4>
+                    <a href="https://my-first-pokedex-to-academlo.netlify.app/" target="_blank">
+                        <img src="./assets/images/pokedex.gif" alt="porta1">
+                    </a>
+                </div>
+                <div class="portfolio">
+                    <H4>RickyMorty with React/Javascript/CSS</H4>
+                    <a href="https://project-ricky-morty.netlify.app/" target="_blank">
+                        <img src="./assets/images/RM.gif" alt="porta1">
+                    </a>
+                </div>
+                <div class="portfolio">
+                    <h4>
+                        My DropBox Filter with HTML/Javascript/CSS 
+                    </h4>
+                    <a href="https://dropbox-filters.netlify.app/" target="_blank">
+                        <img src="./assets/images/dropbox.gif" alt="porta1">
+                    </a>
+                </div>
+                <div class="portfolio">
+                    <h4>
+                    My Weather App with React
+                    </h4>
+                    <a href="https://my-app-weather-to-academlo.netlify.app/" target="_blank">
+                        <img src="./assets/images/weather.gif" alt="porta1">
+                    </a>
+                </div>
+                <div class="portfolio">
+                    <h4>
+                    CHANGE-CARD with React
+                    </h4>
+                    <a href="https://change-card-phrases-and-color.netlify.app/" target="_blank">
+                        <img src="./assets/images/change-card.gif" alt="porta1">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="hidden">
+            <h2>Contact me</h2>
+
+            <form class="form" data-netlify="true">
+                <input type="text" placeholder="enter your name" name="nameUser" id="nameUser" required>
+                <input type="email" placeholder="enter your email" name="emailUser" id="emailUser" required>
+
+                <textarea name="commentUser" id="commentUser" cols="30" rows="10"
+                    placeholder="Write me ..."></textarea>
+
+                <button class="btn">send</button>
+            </form>
+
+        </section>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
