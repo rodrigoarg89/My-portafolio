@@ -157,7 +157,6 @@ section {
 
 .skills {
     width: 100%;
-    /* background-color: red; */
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     margin: 0 auto;
@@ -181,6 +180,8 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 1.5rem;
+    margin: 0 auto;
+    
 }
 
 /* .portfolio:nth-child(1) {
@@ -262,6 +263,7 @@ section {
 
 h4 {
     font-size: 0.9rem;
+    margin-bottom: 10px;
 }
 
 .contact-me {
