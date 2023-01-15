@@ -43,6 +43,14 @@ html {
     scroll-behavior: smooth;
 }
 
+.api {
+    font-size: 98px;
+}
+
+.line {
+    font-size: 77px;
+}
+
 .iconTheme {
     font-size: 2rem;
     cursor: pointer;
